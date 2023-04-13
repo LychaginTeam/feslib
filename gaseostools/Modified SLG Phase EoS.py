@@ -309,14 +309,14 @@ def PhTrV2(v):
 #       d = d*0.5
 #     else:
 #       dis1 = dis2
-  
+
 #   return v2
 
 def fsolver(f, x0, x1, T, y0=0., drct=1, eps=1e-3, dx=1e-3):
   """
   решаю методом перебора в диапозоне [x0,x1]
   """
-  
+
   if drct == 1:
     x = x0
   else:
@@ -345,7 +345,7 @@ def fsolver(f, x0, x1, T, y0=0., drct=1, eps=1e-3, dx=1e-3):
           dx1 = 0.5*dx1
         else:
           dis1 = dis2
-  
+
   return x
 
 def PhTrSolve(T, p01, p02, eps1=1e-3, eps2=1e-3, dp=1e-2, dv=1e-3):
@@ -355,19 +355,19 @@ def PhTrSolve(T, p01, p02, eps1=1e-3, eps2=1e-3, dp=1e-2, dv=1e-3):
   далее проверяю выполнение 2го уравнения
   Если не выполнено, то меняю p
   """
-  
+
   # disM = ()
   # dpM = ()
   # v1M = ()
   # v2M = ()
-  
+
   p00 = p01
-  
+
   v1 = fsolver(p0, br+1e-4, cr-1e-6, T, p00, drct=-1, eps=eps2)
   v2 = fsolver(p0, cr+1e-6, vcr-1e-4, T, p00, drct=1, eps=eps2, dx=1e-1)
   # v1M = np.append(v1M,v1)
   # v2M = np.append(v2M,v2)
-  
+
   if not (v1 == np.nan or v2 == np.nan):
     dis1 = PhTrEq2(v1,v2,T)
     # disM = np.append(disM,dis1)
@@ -377,9 +377,9 @@ def PhTrSolve(T, p01, p02, eps1=1e-3, eps2=1e-3, dp=1e-2, dv=1e-3):
       flag1 = True
   else:
     flag1 = True
-  
+
   scs = 1
-  
+
   dp1 = dp
   # dpM = np.append(dpM,dp1)
   n1 = 10**5
@@ -415,7 +415,7 @@ def PhTrSolve(T, p01, p02, eps1=1e-3, eps2=1e-3, dp=1e-2, dv=1e-3):
           dp1 = 0.5*dp1
         else:
           dis1 = dis2
-  
+
   # return v1, v2, scs, disM, dpM, v1M, v2M
   return v1, v2, scs
 
@@ -426,19 +426,19 @@ def PhTrSolve1(T, p01, p02, eps1=1e-3, eps2=1e-3, dp=1e-2, dv=1e-3):
   далее проверяю выполнение 2го уравнения
   Если не выполнено, то меняю p
   """
-  
+
   disM = ()
   dpM = ()
   v1M = ()
   v2M = ()
-  
+
   p00 = p01
-  
+
   v1 = fsolver(p0, br+1e-4, cr-1e-8, T, p00, drct=-1, eps=eps2)
   v2 = fsolver(p0, cr+1e-8, vcr-1e-4, T, p00, drct=1, eps=eps2, dx=1e-1)
   v1M = np.append(v1M,v1)
   v2M = np.append(v2M,v2)
-  
+
   if not (v1 == np.nan or v2 == np.nan):
     dis1 = PhTrEq2(v1,v2,T)
     disM = np.append(disM,dis1)
@@ -448,9 +448,9 @@ def PhTrSolve1(T, p01, p02, eps1=1e-3, eps2=1e-3, dp=1e-2, dv=1e-3):
       flag1 = True
   else:
     flag1 = True
-  
+
   scs = 1
-  
+
   dp1 = dp
   dpM = np.append(dpM,dp1)
   n1 = 10**5
@@ -486,7 +486,7 @@ def PhTrSolve1(T, p01, p02, eps1=1e-3, eps2=1e-3, dp=1e-2, dv=1e-3):
           dp1 = 0.5*dp1
         else:
           dis1 = dis2
-  
+
   return v1, v2, scs, disM, dpM, v1M, v2M
   # return v1, v2, scs
 
@@ -953,7 +953,7 @@ plt.show()
 #   if TM[i] > TMSL[1]:
 #     print(i)
 #     break
-  
+
 # plt.figure(figsize=(9,7))
 # plt.plot(TM[66:68],pM[66:68])
 # plt.plot(TMSL[0:2],pM1SL[0:2])
