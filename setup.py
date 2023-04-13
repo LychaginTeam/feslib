@@ -18,7 +18,7 @@ install_requires = [
 
 setup(
     name="gaseostools",
-    version="0.0.1",
+    version="0.1.0",
     description="Thermodinamics, phase transitions, "
     + "applications for different gases, equations of state.",
     long_description=long_description,
