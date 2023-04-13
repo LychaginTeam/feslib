@@ -50,10 +50,10 @@ Alternatively, you can install Displacement-strain-planet via pip
 ```
 
 ## Authors
-[Alexey Batov](https://www.ipu.ru/node/82) (batov@ipu.ru)
-[Ivan Galyaev](https://www.ipu.ru/node/49970) (ivan.galyaev@yandex.ru)
-[Valentin Lychagin](https://www.ipu.ru/node/457)
-[Maksim Kostiuchek](https://www.ipu.ru/node/47150) (max31@list.ru)
+[Alexey Batov](https://www.ipu.ru/node/82) (batov@ipu.ru),
+[Ivan Galyaev](https://www.ipu.ru/node/49970) (ivan.galyaev@yandex.ru),
+[Valentin Lychagin](https://www.ipu.ru/node/457),
+[Maksim Kostiuchek](https://www.ipu.ru/node/47150) (max31@list.ru),
 [Anton Salnikov](https://www.ipu.ru/staff/salnikov) (salnikov@ipu.ru)
 
 ## Cite
@@ -61,4 +61,4 @@ You can cite the latest release of the package as:
 GasEOSTools: 0.1.0 (Version 0.1.0). Zenodo. http://doi.org/...
 
 ## Acknowledgments
-This development of this library was partially supported by Russian Science Foundation grant number 21-71-20034
+The development of this library was supported by Russian Science Foundation grant number 21-71-20034.
