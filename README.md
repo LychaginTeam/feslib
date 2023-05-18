@@ -3,7 +3,7 @@ Thermodinamics, phase transitions, appications for different gases, equations of
 
 ## Description
 
-**Displacement_strain_planet** provides several functions and example scripts for investigation of phase transitions.
+**GasEosTools** provides several functions and example scripts for investigation of phase transitions.
 Several different equations of state are being investigated.
 The library is based on the results of articles by Valentin Lychagin, his students and colleagues.
 
