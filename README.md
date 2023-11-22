@@ -1,9 +1,9 @@
-# gaseostools
-Thermodinamics, phase transitions, appications for different gases, equations of state."
+# feslib
+Thermodinamics, phase transitions, appications for different fluids, equations of state."
 
 ## Description
 
-**GasEosTools** provides several functions and example scripts for investigation of phase transitions.
+**feslib** provides several functions and example scripts for investigation of phase transitions.
 Several different equations of state are being investigated.
 The library is based on the results of articles by Valentin Lychagin, his students and colleagues.
 
@@ -31,34 +31,34 @@ For this code, we work on the develop branch and merge it to the main branch (wi
 `Run_Beattie-Bridgeman` Beattie-Bridgeman example.
 
 ## How to install and run
-If you would like to modify the source code, download the gaseostools repository and install using pip (or pip3 depending on your installation).
+If you would like to modify the source code, download the feslib repository and install using pip (or pip3 depending on your installation).
 ```bash
-    git clone https://github.com/LychaginTeam/gaseostools.git
-    cd gaseostools/
+    git clone https://github.com/LychaginTeam/feslib.git
+    cd feslib/
     pip install .
 ```
 Alternatively, you can install Displacement-strain-planet via pip
 ```bash
-   pip install gaseostools
+   pip install feslib
 ```
 
 ## To run the example scripts
 ```bash
     cd examples
     jupyter notebook Run_demo.ipynb
-    python gaseostools_example.py
+    python feslib_example.py
 ```
 
 ## Authors
-[Alexey Batov](https://www.ipu.ru/node/82) (batov@ipu.ru),
-[Ivan Galyaev](https://www.ipu.ru/node/49970) (ivan.galyaev@yandex.ru),
-[Valentin Lychagin](https://www.ipu.ru/node/457),
 [Maksim Kostiuchek](https://www.ipu.ru/node/47150) (max31@list.ru),
+[Alexey Batov](https://www.ipu.ru/node/82) (batov@ipu.ru),
 [Anton Salnikov](https://www.ipu.ru/staff/salnikov) (salnikov@ipu.ru)
+[Ivan Galyaev](https://www.ipu.ru/node/49970) (ivan.galyaev@yandex.ru),
+[Valentin Lychagin](https://www.ipu.ru/node/457)
 
 ## Cite
 You can cite the latest release of the package as:
-GasEOSTools: 0.1.0 (Version 0.1.0). Zenodo. http://doi.org/...
+feslib: 0.1.0 (Version 0.1.0). Zenodo. http://doi.org/...
 
 ## Acknowledgments
 The development of this library was supported by Russian Science Foundation grant number 21-71-20034.

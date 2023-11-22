@@ -17,13 +17,13 @@ install_requires = [
 ]
 
 setup(
-    name="gaseostools",
+    name="feslib",
     version="0.1.0",
     description="Thermodinamics, phase transitions, "
-    + "applications for different gases, equations of state.",
+    + "applications for different liquids, equations of state.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/LychaginTeam/gaseostools",
+    url="https://github.com/LychaginTeam/feslib",
     author="Alexey Batov",
     author_email="batov@ipu.ru",
     classifiers=[
