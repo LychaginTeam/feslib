@@ -6,14 +6,7 @@ example methane and ethane
 
 import numpy as np
 import matplotlib.pyplot as plt
-import scipy.optimize
-#import h5py
-from numba import jit
-from scipy.integrate import quad, nquad
-from scipy.optimize import fsolve, root, minimize
-from time import time
-
-from MSLVMix import MSLVMix
+from feslib import MSLVMix
 
 
 #%%
@@ -24,7 +17,7 @@ R = 8.314472
 
 #%%
 
-fluid = MSLVMix()
+fluid = MSLVMix.MSLVMix()
 fluid.acPure = np.array([267576.04999955, 634217.7545973])
 fluid.bPure = np.array([29.48676014, 43.21622085])
 fluid.dPure = np.array([35.54066954, 46.1522217])

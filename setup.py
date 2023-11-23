@@ -18,7 +18,7 @@ install_requires = [
 
 setup(
     name="feslib",
-    version="0.1.0",
+    version="1.0.0",
     description="Thermodinamics, phase transitions, "
     + "applications for different liquids, equations of state.",
     long_description=long_description,

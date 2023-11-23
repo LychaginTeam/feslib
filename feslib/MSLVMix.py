@@ -2,13 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import numpy as np
-
 import matplotlib.pyplot as plt
-import scipy.optimize
-#import h5py
-from numba import jit
-from scipy.integrate import quad, nquad
-from scipy.optimize import fsolve, root, minimize
+from scipy.optimize import minimize
 from time import time
 
 

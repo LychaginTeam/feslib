@@ -29,6 +29,7 @@ For this code, we work on the develop branch and merge it to the main branch (wi
 
 ## Example scripts
 `Run_Beattie-Bridgeman` Beattie-Bridgeman example.
+`MSLVMix_expl` 
 
 ## How to install and run
 If you would like to modify the source code, download the feslib repository and install using pip (or pip3 depending on your installation).
@@ -37,7 +38,7 @@ If you would like to modify the source code, download the feslib repository and 
     cd feslib/
     pip install .
 ```
-Alternatively, you can install Displacement-strain-planet via pip
+Alternatively, you can install feslib via pip
 ```bash
    pip install feslib
 ```
@@ -45,8 +46,7 @@ Alternatively, you can install Displacement-strain-planet via pip
 ## To run the example scripts
 ```bash
     cd examples
-    jupyter notebook Run_demo.ipynb
-    python feslib_example.py
+    python MSLVMix_expl.py
 ```
 
 ## Authors
