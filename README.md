@@ -1,5 +1,5 @@
 # feslib
-Thermodinamics, phase transitions, appications for different fluids, equations of state."
+Thermodinamics, phase transitions, appications for different fluids, equations of state.
 
 ## Description
 
@@ -23,6 +23,10 @@ For this code, we work on the develop branch and merge it to the main branch (wi
 
 ## Methods
 `Beattie-Bridgeman` Phase transitions using Beattie-Bridgeman EOS.
+
+`
+[I. A. Galyaev, M. I. Kostiuchek, A. V. Batov, and A. M. Salnikov. Critical Phenomena of Massieu–Plank Potential for Gas Mixtures Described by the Beattie–Bridgeman Equations of State // Lobachevskii Journal of Mathematics, 2023, Vol. 44, No. 9, pp. 3919–3926](https://doi.org/10.1134/S1995080223090093)
+
  [Beattie J.A., Bridgeman O.C. An Equation of State for Gaseous Mixtures. 1. Application to Mixtures of Methane and Nitrogen // J. Am. Chem. Soc. 1929. V. 51. P. 19–30.](https://doi.org/10.1021/ja01376a003)
 
 ...
