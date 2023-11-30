@@ -22,12 +22,15 @@ For this code, we work on the develop branch and merge it to the main branch (wi
 ---
 
 ## Methods
-`Beattie-Bridgeman` Phase transitions using Beattie-Bridgeman EOS.
-
-`
+`Beattie-Bridgeman` Phase transitions using Beattie-Bridgeman EOS. The Beattie–Bridgeman model was chosen to describe phase transitions and their features for the equation of state of a real gas. The description of the method is in the following article: 
 [I. A. Galyaev, M. I. Kostiuchek, A. V. Batov, and A. M. Salnikov. Critical Phenomena of Massieu–Plank Potential for Gas Mixtures Described by the Beattie–Bridgeman Equations of State // Lobachevskii Journal of Mathematics, 2023, Vol. 44, No. 9, pp. 3919–3926](https://doi.org/10.1134/S1995080223090093)
 
- [Beattie J.A., Bridgeman O.C. An Equation of State for Gaseous Mixtures. 1. Application to Mixtures of Methane and Nitrogen // J. Am. Chem. Soc. 1929. V. 51. P. 19–30.](https://doi.org/10.1021/ja01376a003)
+We also recommend that you read the article:
+[Beattie J.A., Bridgeman O.C. An Equation of State for Gaseous Mixtures. 1. Application to Mixtures of Methane and Nitrogen // J. Am. Chem. Soc. 1929. V. 51. P. 19–30.](https://doi.org/10.1021/ja01376a003)
+
+`MSLVMix` The model describes a substance state in three phases. Thermodynamics states are points on Legendrian or Lagrangian manifolds in the corresponding contact or symplectic spaces in terms of differential geometry. The conditions of applicable states and the first order phase transition are given for the Modified Solid-Liquid-Vapour equation of state. The Lagrangian manifold, singularity curve and the phase transition curves are plotted for methane. The description of the method is in the following article: 
+[Maksim Kostiuchek, Alexey Batov, Ivan Galyaev, Anton Salnikov. Some Features of the Modified Solid-Liquid-Vapor Equation of State.](http://dx.doi.org/10.2139/ssrn.4613860)
+
 
 ...
 
