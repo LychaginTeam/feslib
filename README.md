@@ -59,9 +59,9 @@ Alternatively, you can install feslib via pip
 ## Authors
 [Maksim Kostiuchek](https://www.ipu.ru/node/47150) (max31@list.ru),
 [Alexey Batov](https://www.ipu.ru/node/82) (batov@ipu.ru),
-[Anton Salnikov](https://www.ipu.ru/staff/salnikov) (salnikov@ipu.ru)
+[Anton Salnikov](https://www.ipu.ru/staff/salnikov) (salnikov@ipu.ru),
 [Ivan Galyaev](https://www.ipu.ru/node/49970) (ivan.galyaev@yandex.ru),
-[Valentin Lychagin](https://www.ipu.ru/node/457)
+[Valentin Lychagin](https://www.ipu.ru/node/457) (valentin.lychagin@uit.no)
 
 ## Cite
 You can cite the latest release of the package as:
