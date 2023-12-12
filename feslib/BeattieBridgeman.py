@@ -33,14 +33,14 @@ Tc3 = 1.
 @jit("float64(float64)")
 def alpha(T):
   """
-  коэффициент перед 1/v**2
+  coefficient before 1/v
   """
   return a1*T
 
 @jit("float64(float64)")
 def beta(T):
   """
-  коэффициент перед 1/v**2
+  coefficient before 1/v**2
   """
   # return R*T*B0 - A0 -R*c/T**2
   return b1*T + b2 + b3/T**2
@@ -48,7 +48,7 @@ def beta(T):
 @jit("float64(float64)")
 def gamma(T):
   """
-  коэффициент перед 1/v**3
+  coefficient before 1/v**2 1/v**3
   """
   # return A0*a - R*T*B0*b - R*B0*c/T**2
   return g1*T + g2 + g3/T**2
@@ -56,7 +56,7 @@ def gamma(T):
 @jit("float64(float64)")
 def delta(T):
   """
-  коэффициент перед 1/v**4
+  coefficient before 1/v**2 1/v**4
   """
   # return R*B0*b*c/T**2
   return d1/T**2
