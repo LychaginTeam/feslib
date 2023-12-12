@@ -65,9 +65,5 @@ Alternatively, you can install feslib via pip
 [Ivan Galyaev](https://www.ipu.ru/node/49970) (ivan.galyaev@yandex.ru),
 [Valentin Lychagin](https://www.ipu.ru/node/457) (valentin.lychagin@uit.no)
 
-## Cite
-You can cite the latest release of the package as:
-feslib: 0.1.0 (Version 0.1.0). Zenodo. http://doi.org/...
-
 ## Acknowledgments
 The development of this library was supported by Russian Science Foundation grant number 21-71-20034.
