@@ -39,7 +39,7 @@ We also recommend that you read the article:
 
 `MSLVMix_expl` -- example for MSLV equation model.
 
-'VdWMix_example' -- example of calculating mixtures using the Van der Waals equation.
+`VdWMix_example` -- example of calculating mixtures using the Van der Waals equation.
 
 ## How to install and run
 If you would like to modify the source code, download the feslib repository and install using pip (or pip3 depending on your installation).
