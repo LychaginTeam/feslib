@@ -34,11 +34,12 @@ We also recommend that you read the article:
 [Maksim Kostiuchek, Alexey Batov, Ivan Galyaev, Anton Salnikov. Some Features of the Modified Solid-Liquid-Vapor Equation of State.](http://dx.doi.org/10.2139/ssrn.4613860)
 
 
-...
-
 ## Example scripts
-`Run_Beattie-Bridgeman` Beattie-Bridgeman example.
-`MSLVMix_expl` 
+`Run_Beattie-Bridgeman` -- example for Beattie-Bridgeman equation model.
+
+`MSLVMix_expl` -- example for MSLV equation model.
+
+'VdWMix_example' -- example of calculating mixtures using the Van der Waals equation.
 
 ## How to install and run
 If you would like to modify the source code, download the feslib repository and install using pip (or pip3 depending on your installation).
@@ -56,6 +57,7 @@ Alternatively, you can install feslib via pip
 ```bash
     cd examples
     python MSLVMix_expl.py
+    python VdWMix_example.py
 ```
 
 ## Authors
