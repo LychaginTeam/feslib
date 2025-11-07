@@ -26,10 +26,10 @@ We also recommend that you read the article:
 [Beattie J.A., Bridgeman O.C. An Equation of State for Gaseous Mixtures. 1. Application to Mixtures of Methane and Nitrogen // J. Am. Chem. Soc. 1929. V. 51. P. 19–30.](https://doi.org/10.1021/ja01376a003)
 
 `MSLVMix` The model describes a substance state in three phases. Thermodynamic states are points on Legendrian or Lagrangian manifolds in the corresponding contact or symplectic spaces in terms of differential geometry. The conditions of applicable states and the first order phase transition are given for the Modified Solid-Liquid-Vapour equation of state. The Lagrangian manifold, singularity curve and the phase transition curves are plotted for methane. The description of the method is in the following article: 
-[Batov, A. V., Galyaev, I. A., Kostiuchek, M. I. & Salnikov, A. M. *Some Features of the Modified Solid–Liquid–Vapor Equation of State*. Lobachevskii J Math 45, 1905–1916 (2024)].(https://doi.org/10.1134/S1995080224602078)
+[Batov, A. V., Galyaev, I. A., Kostiuchek, M. I. & Salnikov, A. M. Some Features of the Modified Solid–Liquid–Vapor Equation of State. Lobachevskii J Math 45, 1905–1916 (2024)](https://doi.org/10.1134/S1995080224602078)
 
 In addition to these models, `feslib` also provides tools to work with virial equations of state and virial coefficients for real gases. The `appr_example.ipynb` notebook and the data in the `data/` directory demonstrate how to fit the virial coefficients \(B_1(T)\) and \(B_2(T)\) for methane using data from the `data/` directory.
-[Batov, A., Kostiuchek, M., Salnikov, A. & Galyaev, I. *Using the Virial Equation of State to Approximate Methane Data*. in 2024 17th International Conference on Management of Large-Scale System Development (MLSD) 1–4 (IEEE, Moscow, Russian Federation, 2024).](doi:10.1109/MLSD61779.2024.10739643.)
+[Batov, A., Kostiuchek, M., Salnikov, A. & Galyaev, I. Using the Virial Equation of State to Approximate Methane Data. in 2024 17th International Conference on Management of Large-Scale System Development (MLSD) 1–4 (IEEE, Moscow, Russian Federation, 2024).](https://doi:10.1109/MLSD61779.2024.10739643.)
 
 
 ## Example scripts
