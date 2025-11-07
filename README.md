@@ -71,7 +71,7 @@ Alternatively, you can install feslib via pip
 
 If you use this library in your research, please cite the following works:
 
-- Lychagin, V. *Thermodynamics as a theory of measurement*. Journal of Geometry and Physics 172, 104430 (2022). https://doi.org/10.1016/j.geomphys.2021.104430
-- Galyaev, I.A., Kostiuchek, M.I., Batov, A.V. et al. *Critical Phenomena of Massieu–Plank Potential for Gas Mixtures Described by the Beattie–Bridgeman Equations of State*. Lobachevskii J Math 44, 3919–3926 (2023). https://doi.org/10.1134/S1995080223090093.
+- Lychagin, V. *Thermodynamics as a theory of measurement*. Journal of Geometry and Physics 172, 104430 (2022). doi:10.1016/j.geomphys.2021.104430.
+- Galyaev, I.A., Kostiuchek, M.I., Batov, A.V. et al. *Critical Phenomena of Massieu–Plank Potential for Gas Mixtures Described by the Beattie–Bridgeman Equations of State*. Lobachevskii J Math 44, 3919–3926 (2023). doi:10.1134/S1995080223090093.
 - Batov, A. V., Galyaev, I. A., Kostiuchek, M. I. & Salnikov, A. M. *Some Features of the Modified Solid–Liquid–Vapor Equation of State*. Lobachevskii J Math 45, 1905–1916 (2024). https://doi.org/10.1134/S1995080224602078.
 - Batov, A., Kostiuchek, M., Salnikov, A. & Galyaev, I. *Using the Virial Equation of State to Approximate Methane Data*. in 2024 17th International Conference on Management of Large-Scale System Development (MLSD) 1–4 (IEEE, Moscow, Russian Federation, 2024). doi:10.1109/MLSD61779.2024.10739643.
