@@ -14,6 +14,7 @@ install_requires = [
     "matplotlib>=3.3",
     "scipy",
     "numpy",
+    "numba",
 ]
 
 setup(
@@ -27,7 +28,7 @@ setup(
     author="Alexey Batov",
     author_email="batov@ipu.ru",
     classifiers=[
-        "Development Status :: Dev",
+        "Development Status :: 3 - Alpha",
         "Environment :: Console",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Intended Audience :: Science/Research",

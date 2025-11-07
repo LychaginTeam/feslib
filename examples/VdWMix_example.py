@@ -4,7 +4,7 @@
 import numpy as np
 # import measurementunits as units
 import matplotlib.pyplot as plt
-from VdWMix import VdWMix, SecantMethod
+from feslib.VdWMix import VdWMix, SecantMethod
 
 
 #%%
