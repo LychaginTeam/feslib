@@ -39,7 +39,7 @@ In addition to these models, `feslib` also provides tools to work with virial eq
 
 `VdWMix_example` -- example of calculating mixtures using the Van der Waals equation.
 
-`appr_example.ipynb` -- example of these coefficients using polynomials 
+`appr_example.ipynb` -- example of approximation of \(B_1(T)\) and \(B_2(T)\) virial coefficients, methane. Data from Dymond and M. Frenkel (2002) used.
 
 ## How to install and run
 If you would like to modify the source code, download the feslib repository and install using pip (or pip3 depending on your installation).
