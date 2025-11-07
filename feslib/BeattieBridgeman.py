@@ -203,7 +203,7 @@ def p3(T):
 @jit("float64(float64)")
 def PhTrV2(v):
   """
-  Approximation of the phase transition graph in the (v1,v2) plane; 
+  Approximation of the phase transition graph in the (v1,v2) plane;
   approximation by a hyperbola
   """
   k = 0.7
@@ -214,12 +214,12 @@ def fsolver(f, x0, x1, T, y0=0., drct=1, eps=1e-3, dx=1e-3):
   """
   search method in the range [x0,x1]
   """
-  
+
   if drct > 0:
     x = x0
   else:
     x = x1
-  
+
   n1 = 10**4
   dis1 = f(x,T) - y0
   if np.abs(dis1) < eps:
@@ -244,7 +244,7 @@ def fsolver(f, x0, x1, T, y0=0., drct=1, eps=1e-3, dx=1e-3):
           dx1 = 0.5*dx1
         else:
           dis1 = dis2
-  
+
   return x
 
 def PhTrSolve(T, p01, p02, v11, v12, v21, v22, eps1=1e-3, eps2=1e-3, dp=1e-2, dv=1e-3):
@@ -254,12 +254,12 @@ def PhTrSolve(T, p01, p02, v11, v12, v21, v22, eps1=1e-3, eps2=1e-3, dp=1e-2, dv
   Next we check the execution of the 2nd equation
   If not done, then change p
   """
-  
+
   p00 = p01
-  
+
   v1 = fsolver(p0, v11, v12, T, p00, drct=-1, eps=eps2, dx=1e-5)
   v2 = fsolver(p0, v21, v22, T, p00, drct=1, eps=eps2, dx=1e-1)
-  
+
   if not (v1 == np.nan or v2 == np.nan):
     dis1 = PhTrEq2(v1,v2,T)
     if np.abs(dis1) < eps1:
@@ -268,9 +268,9 @@ def PhTrSolve(T, p01, p02, v11, v12, v21, v22, eps1=1e-3, eps2=1e-3, dp=1e-2, dv
       flag1 = True
   else:
     flag1 = True
-  
+
   scs = 1
-  
+
   dp1 = dp
   n1 = 10**5
   i = 0
@@ -301,7 +301,7 @@ def PhTrSolve(T, p01, p02, v11, v12, v21, v22, eps1=1e-3, eps2=1e-3, dp=1e-2, dv
           dp1 = 0.5*dp1
         else:
           dis1 = dis2
-  
+
   return v1, v2, scs
 
 nn = 50
@@ -316,7 +316,7 @@ for i in range(nn):
   p02 = p3(TM1[i])
   v12 = fsolver(p0,0.1,1,TM1[i],y0=p02)
   v21 = fsolver(p0,v12,1,TM1[i],y0=p01)
-  
+
   v1,v2,scs = PhTrSolve(TM1[i], p01, p02, 0.1, v12, v21, 10.)
   v1M1[i] = v1
   v2M1[i] = v2
@@ -380,7 +380,7 @@ for i in range(nn):
   p02 = p3(TM2[i])
   v12 = fsolver(p0,v0,1,TM2[i],y0=p01)
   v21 = fsolver(p0,1,10,TM2[i],y0=p02)
-  
+
   v1,v2,scs = PhTrSolve(TM2[i],p01,p02,v0,v12,v21,20,eps1=1e-2)
   v1M2[i] = v1
   v2M2[i] = v2
