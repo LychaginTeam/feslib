@@ -4,7 +4,7 @@ Thermodynamics, phase transitions, applications for different fluids, equations 
 
 ## Description
 
-**feslib** provides several functions and example scripts for investigation of phase transitions.
+**feslib** provides several functions and example scripts for investigation of phase transitions, thermodynamic stability and filtration.
 Several different equations of state are implemented in the library.
 The library is based on the results of articles by Valentin Lychagin, his students and colleagues.
 
@@ -17,7 +17,7 @@ Useful bibliography:
 This code is still under development and benchmarking. If you find any bugs or errors in the code, please report them in GitHub.
 
 ## Methods
-`Beattie-Bridgeman` Phase transitions using Beattie-Bridgeman EOS. The Beattie–Bridgeman model was chosen to describe phase transitions and their features for the equation of state of a real gas. The description of the method is in the following article: 
+`Beattie-Bridgeman` Phase transitions using Beattie-Bridgeman EOS. The Beattie–Bridgeman model was chosen to describe phase transitions and their features for the equation of state of a real gas. The description of the method is in the following article:
 [I. A. Galyaev, M. I. Kostiuchek, A. V. Batov, and A. M. Salnikov. Critical Phenomena of Massieu–Plank Potential for Gas Mixtures Described by the Beattie–Bridgeman Equations of State // Lobachevskii Journal of Mathematics, 2023, Vol. 44, No. 9, pp. 3919–3926](https://doi.org/10.1134/S1995080223090093)
 
 The paper considers thermodynamics as a measurement of extensive variables, such as energy, volume and mass. In this sense, thermodynamic states are Legendrian or Lagrangian surfaces in the corresponding contact or symplectic space. The Beattie-Bridgeman model was chosen to describe phase transitions and their features for the equation of state of a real gas. This model describes the state of a substance in two phases: liquid and vapor. Real gas can be either single gas or a mixture. The program provides calculated data for many gas mixtures: methane, ethane, propane, butane, pentane, hydrogen, nitrogen, carbon dioxide, ammonia. Using the program, you can calculate formulas for model constants for any mixture of gases. You can obtain graphs of: the caloric equation of state and various phase transition potentials for a mixture of alkanes in the oil industry, the Lagrangian manifold. It can be noted that three critical phenomena have been discovered for the phase transition.
@@ -25,7 +25,7 @@ The paper considers thermodynamics as a measurement of extensive variables, such
 We also recommend that you read the article:
 [Beattie J.A., Bridgeman O.C. An Equation of State for Gaseous Mixtures. 1. Application to Mixtures of Methane and Nitrogen // J. Am. Chem. Soc. 1929. V. 51. P. 19–30.](https://doi.org/10.1021/ja01376a003)
 
-`MSLVMix` The model describes a substance state in three phases. Thermodynamic states are points on Legendrian or Lagrangian manifolds in the corresponding contact or symplectic spaces in terms of differential geometry. The conditions of applicable states and the first order phase transition are given for the Modified Solid-Liquid-Vapour equation of state. The Lagrangian manifold, singularity curve and the phase transition curves are plotted for methane. The description of the method is in the following article: 
+`MSLVMix` The model describes a substance state in three phases. Thermodynamic states are points on Legendrian or Lagrangian manifolds in the corresponding contact or symplectic spaces in terms of differential geometry. The conditions of applicable states and the first order phase transition are given for the Modified Solid-Liquid-Vapour equation of state. The Lagrangian manifold, singularity curve and the phase transition curves are plotted for methane. The description of the method is in the following article:
 [Batov, A. V., Galyaev, I. A., Kostiuchek, M. I. & Salnikov, A. M. Some Features of the Modified Solid–Liquid–Vapor Equation of State. Lobachevskii J Math 45, 1905–1916 (2024)](https://doi.org/10.1134/S1995080224602078)
 
 In addition to these models, `feslib` also provides tools to work with virial equations of state and virial coefficients for real gases. The `appr_example.ipynb` notebook and the data in the `data/` directory demonstrate how to fit the virial coefficients \(B_1(T)\) and \(B_2(T)\) for methane using data from the `data/` directory.
